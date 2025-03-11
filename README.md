@@ -1,5 +1,7 @@
 Demostration of SBm-iCOM on Matlab
+
 run with demonstration datasets
+
 run Simu4dstem_script_for_exp_data_df0.m, Simu4dstem_script_for_exp_data_df10.m and Simu4dstem_script_for_exp_data_df20.m
 
 ptychoSTEM package:
