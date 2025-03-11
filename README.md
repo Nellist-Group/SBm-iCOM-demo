@@ -4,6 +4,10 @@ run with demonstration datasets
 
 run Simu4dstem_script_for_exp_data_df0.m, Simu4dstem_script_for_exp_data_df10.m and Simu4dstem_script_for_exp_data_df20.m
 
+COM/DPC:
+
+getDPC (https://github.com/hachteja/GetDPC/tree/master)
+
 ptychoSTEM package:
 
 T. J. Pennycook, A. R. Lupini, H. Yang, M. F. Murfitt, L. Jones, P. D. Nellist, Ultramicroscopy 151 (2015) 160 – 167.
