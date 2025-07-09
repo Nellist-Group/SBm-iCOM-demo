@@ -9,7 +9,7 @@ This is the code demostration for article ___Defocus correction and noise reduct
 
   ```
   % set experimental parameters
-  dataPath = 'the path to binned_diff_20230819_163033_df0.hdf5'; % datapath for data file
+  dataPath = './the path to binned_diff_20230819_163033_df0.hdf5'; % datapath for data file
   ```
 3. Change `savePath` (line 5) in the script to where the results need to be saved. For example:
 
