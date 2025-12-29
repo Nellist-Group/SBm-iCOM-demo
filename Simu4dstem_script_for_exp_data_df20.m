@@ -1,5 +1,5 @@
 % set experimental parameters
-dataPath = '../graphene_data/df20/binned_diff_20230819_163728.hdf5'; % datapath for data file
+dataPath = '../graphene_data/df20/binned_diff_20230819_163728_df20.hdf5'; % datapath for data file
 dataFormat = 'h5-frms6'; % 'mat-3d'/'mat-4d'/'h5-frms6'
 varName = 'm_31p5mrad'; % name of var in the dataPath, 3d mat
 savePath = '../test_df20/';
@@ -210,4 +210,5 @@ imwrite(mat2gray(Res.iCOMf),[save_img_path_4_epdp,'img_SSBmiCOMf.png']);
 imwrite(mat2gray(Res.iCOMfm),[save_img_path_4_epdp,'img_SSBmiCOMfm.png']);
 COM_result = Res;
 save(sprintf('%sCOM_ac.mat',save_mat_path_4_epdp),'COM_result');
+
 
