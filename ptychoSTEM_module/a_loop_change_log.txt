@@ -1,0 +1,30 @@
+version: 0.3.2
+date: 2021.09.05
+editor: Zhiyuan Ding
+add a script see_trotters_Zhiyuan.m and seek_dp_spot.m
+______________________
+version: 0.3.1
+Date: 2021.03.16
+Editor: Zhiyuan Ding
+add a date type check in a_loop_control_read4ddataset
+_______________________
+version: 0.3.0
+Date: 2021.03.09
+Editor: Zhiyuan Ding
+add ptycho.mask_mode in ptychoSTEM parameter to control the mask on dp
+optimize algorithm for RAM usage
+______________________
+version: 0.2.2
+Date: 2021.02.28
+Editor: Zhiyuan Ding
+Fix some bugs
+_____________________
+version: 0.2.1
+Date: 2021.02.27
+Editor: Zhiyuan Ding
+
+_____________________
+version: 0.2.0
+Date: 2021.02.27
+Editor: Zhiyuan Ding
+add a_loop_control_xxx to control ssb, wdd and ePIE recon in a script
