@@ -48,7 +48,7 @@ updated on 31st Dec 2025.
    | result_img/img_STEM_60_200.png | integrated HAADF, collection angle 60 to 200 mrad |
    | result_mat/COM.mat | COM results in mat file |
    | result_mat/SBmCOM.mat | SBmCOM results in mat file |
-   | result_mat/SSBAC.mat | SSBAC results in mat file |
+   | result_mat/SSBAC.mat | SSBAC parameters and results in mat file |
    | result_mat/STEM.mat | STEM results (ADF and HAADF) in mat file |
 
 ## Reference
