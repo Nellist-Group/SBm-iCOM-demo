@@ -4,8 +4,8 @@ dataFormat = 'h5-frms6'; % 'mat-3d'/'mat-4d'/'h5-frms6'
 varName = 'm_31p5mrad'; % name of var in the dataPath, 3d mat
 savePath = '../test_df0/';
 
-save_img_path_4_epdp = [savePath,'result_img_epdp','/'];
-save_mat_path_4_epdp = [savePath,'result_mat_epdp','/'];
+save_img_path_4_epdp = [savePath,'result_img','/'];
+save_mat_path_4_epdp = [savePath,'result_mat','/'];
 %% parameters
 voltage = 80; % kV
 convAngle = 24.8; % mrad
@@ -175,7 +175,7 @@ end
 fprintf('%s[LOG]: SSBAC finished\n',datestr(now,31));
 ptycho_res = Res;
 
-save(sprintf('%sptycho_ssbac.mat',save_mat_path_4_epdp),'ptycho_0','ptycho_res');
+save(sprintf('%sSSBAC.mat',save_mat_path_4_epdp),'ptycho_0','ptycho_res');
 imwrite(mat2gray(abs(ptycho_res.ssb_r)),sprintf('%simg_SSBAC_amp_r.png',save_img_path_4_epdp));
 imwrite(mat2gray(angle(ptycho_res.ssb_r)),sprintf('%simg_SSBAC_phs_r.png',save_img_path_4_epdp));
 imwrite(mat2gray(abs(ptycho_res.ssb_l)),sprintf('%simg_SSBAC_amp_l.png',save_img_path_4_epdp));
@@ -215,7 +215,7 @@ Res.iCOMf = real(Simu4dstem_ifft2(iCOMf));
 imwrite(mat2gray(Res.iCOMf),[save_img_path_4_epdp,'img_SBmiCOMf.png']);
 
 COM_result = Res;
-save(sprintf('%sCOM_ac.mat',save_mat_path_4_epdp),'COM_result');
+save(sprintf('%sSBmCOM.mat',save_mat_path_4_epdp),'COM_result');
 
 
 
